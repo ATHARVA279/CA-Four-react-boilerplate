@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Salsa', cursive;
+}
+
+.Main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.start{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.startbtn{
+    margin: 30px;
+    cursor: pointer;
+    
+}
+
+.heading1{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Salsa', cursive;
+    color: white;
+}
+
+.Main1{
+    display: none;
+}
+
+.button-style {
+    width: 100px;
+    background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.button-style span {
+    padding: 5px 0;
+    font-size: 30px;
+    display: block;
+    margin: 3px;
+    background: #000;
+    border-radius: 5px;
+    font-family: 'Salsa', cursive;
+}

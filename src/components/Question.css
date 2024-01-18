@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Salsa', cursive;
+  }
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.toggle{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.toggle>button{
+    padding: 5px;
+}
+
+.card{
+    height: 80%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(49deg, #2d4de0 0, #9f71f0 30%, #fc6277 60%, #f8ef6f 95%);
+    border-radius: 12px;
+}
+
+.disBox{
+    height: 99%;
+    width:99%;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    color: white;
+}
+
+.heading{
+    margin: 40px 0 20px 0;
+}
+
+.Num{
+    width: 100%;
+    text-align: left;
+    padding-left: 40px;
+}
+  
+.Ques{
+    margin: 20px;
+    font-size: 35px;
+}
+
+
+
+.optBox{
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+}
+
+.opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 90%;
+    border-radius: 25px;
+    background-color: #1ef18e;
+    color:white;
+}
+
+.opt h2{
+    font-size: 20px;
+    color: black;
+}
+
+.Btn{
+    margin: 50px;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.highlight > button{
+    padding: 5px;
+    margin: 10px;
+}

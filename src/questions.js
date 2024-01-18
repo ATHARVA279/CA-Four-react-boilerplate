@@ -12,19 +12,19 @@ const questions = [
   {
     text: "React.js is written in which of the following language?",
     options: [
-      { id: 0, text: "JavaScript", isCorrect: "fill a boolean value here like shown in the first question" },
-      { id: 1, text: "Java", isCorrect:  "fill a boolean value here like shown in the first question" },
-      { id: 2, text: "C", isCorrect:  "fill a boolean value here like shown in the first question" },
-      { id: 3, text: "C++", isCorrect:  "fill a boolean value here like shown in the first question" },
+      { id: 0, text: "JavaScript", isCorrect: true },
+      { id: 1, text: "Java", isCorrect: false},
+      { id: 2, text: "C", isCorrect:  false},
+      { id: 3, text: "C++", isCorrect:  false},
     ],
   },
   {
     text: "What is a state in React?",
     options: [
-      { id: 0, text: "A permanent storage.", isCorrect:  "fill a boolean value here like shown in the first question" },
-      { id: 1, text: "Internal storage of the component.", isCorrect: "fill a boolean value here like shown in the first question" },
-      { id: 2, text: "External storage of the component.", isCorrect:  "fill a boolean value here like shown in the first question" },
-      { id: 3, text: "None of the above.", isCorrect:  "fill a boolean value here like shown in the first question" },
+      { id: 0, text: "A permanent storage.", isCorrect:  false },
+      { id: 1, text: "Internal storage of the component.", isCorrect: true },
+      { id: 2, text: "External storage of the component.", isCorrect:  false },
+      { id: 3, text: "None of the above.", isCorrect:  false },
     ],
   },
   

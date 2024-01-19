@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
-import questions from "./questions";
-import Result from "./components/Result";
 import QuestionBox from "./components/QuestionBox";
 
 
@@ -17,19 +15,15 @@ function App() {
   return (
     <>
       <div className={display}>
-        <div className="start">
+        <div className="startMain">
           <div className="heading1">
             <h1>REACT QUIZ</h1>
           </div>
           <div onClick={changeStyle} className="startbtn">
-          <a className="button-style"><span>Start</span></a>
-          </div>
-          <div>
-          <a className="button-style"><span>Light</span></a>
+          <div className="button-style">Start</div>
           </div>
         </div>
       </div>
-
       <QuestionBox/>
     </>
   );

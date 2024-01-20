@@ -1,59 +1,79 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Salsa', cursive;
-  }
-
-.mainRes{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  background-color: #3C9BF2;
-  position: absolute;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Salsa', cursive;
 }
 
+/* giving the properties to the main div */
+.mainRes{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100vw;
+position: absolute;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+/* giving glassmorphism type properties to the display box */
 .disResBox{
-    height: 400px;
-    width: 500px;
-    background-color: #FFC10F;
-    border: 3px black solid;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 12px;
-    color: white;
+  height: 400px;
+  width: 500px;
+  border: 1px white solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
 }
 
 .disResBox>h1{
-  font-size: 80px;
-  margin-top: 20px;
-  margin-bottom: 5px;
+font-size: 80px;
+margin-top: 20px;
+margin-bottom: 5px;
 }
 
 .disResBox>p{
-  font-size: 40px;
-  margin: 5px;
+font-size: 40px;
+margin: 5px;
 }
 
 .resButton{
-  padding: 5px;
-  margin: 10px;
-  width: 200px;
-  height: 50px;
-  background-color: #43DD65;
-  border-radius: 10px;
-  border-top: 1px solid #000;
-  border-right: 6px solid #000;
-  border-bottom: 6px solid #000;
-  border-left: 1px solid #000;
-  color: black;
-  font-size: 20px;
-  cursor: pointer;
+padding: 5px;
+margin: 10px;
+width: 200px;
+height: 50px;
+border-radius: 10px;
+border-top: 1px solid #000;
+border-right: 6px solid #000;
+border-bottom: 6px solid #000;
+border-left: 1px solid #000;
+color: black;
+font-size: 20px;
+cursor: pointer;
 }
 
-.resButton:hover{
-  background-color: #029923;
+/* changing the color based on the mode */
+.darkButton:hover{
+background-color: #029923;
+}
+
+.darkButton{
+background-color: #43DD65;
+}
+
+.lightButton{
+background: #DD2E30;
+}
+
+.lightButton:hover{
+background-color: #ce0003;
+color: white;
 }

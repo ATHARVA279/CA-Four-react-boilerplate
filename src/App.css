@@ -5,28 +5,37 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Salsa', cursive;
-    color: white;
 }
 
+/* giving properties to the main box */
 .Main{
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #43DD65;
+    background-image: url(./components/light.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+/* glassmorphism type properites to the display box */
 .startMain{
     width: 70%;
     height: 60%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 3px black solid;
+    border: 1px white solid;
     border-radius: 10px;
     justify-content: center;
-    background-color: #FFC10F;
+    border-radius: 12px;
+    color: black;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
 }
 
 .startbtn{
@@ -36,10 +45,14 @@
 .heading1{
     font-size: 50px;
     font-family: 'Salsa', cursive;
-    color: black;
     margin-bottom: 30px;
 }
 
+.heading1>h1{
+    color: black;
+}
+
+/* display to none so that when the start button is clicked then this class will be put and the box will disappear */
 .Main1{
     display: none;
 }
@@ -57,4 +70,8 @@
     align-items: center;
     justify-content: center;
     font-size: 30px;
+}
+
+.button-style:hover{
+    color: white;
 }
